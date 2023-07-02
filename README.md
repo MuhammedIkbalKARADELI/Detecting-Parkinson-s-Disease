@@ -1,6 +1,4 @@
-# Detecting-Parkinson-s-Disease
-
-# Parkinson Diseases Detection
+# Parkinson Hastalığı Tahmini (Parkinson Diseases Detection) 
 
 Parkinson hastalığı, öncelikle motor sistemi etkileyen nörodejeneratif bir hastalıktır. Beynin substantia nigra adı verilen belirli bir bölgesindeki dopamin üreten hücrelerin ilerleyici kaybı ile karakterizedir. Dopamin, hareketi koordine etmede çok önemli bir rol oynayan bir nörotransmitterdir ve eksikliği Parkinson hastalığı ile ilişkili motor semptomlara yol açar.
 Parkinson hastalığının kesin nedeni henüz tam olarak anlaşılamamıştır. Bununla birlikte, hem genetik hem de çevresel faktörlerin gelişimine katkıda bulunduğuna inanılmaktadır. Vakaların çoğu, bilinen bir neden olmadan meydana gelen sporadik olarak kabul edilirken, vakaların küçük bir yüzdesi spesifik genetik mutasyonlarla ilişkilidir.
