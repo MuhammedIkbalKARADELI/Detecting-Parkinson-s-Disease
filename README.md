@@ -19,7 +19,7 @@ Cross validation bizim eğitmiş olduğumuz modelin aşırı öğrenmesine (over
 Genellikle az veri setine sahip datalarda tam anlamıyla dataların verimli şekilde kullanılmasını sağlamaktadır.
 
 
-
+<img src="k-fold.png" width="auto">
 
 Fotoğraf_1: K-fold
 
