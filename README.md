@@ -34,18 +34,18 @@ Modellerin birleştirilmesi yöntemini bölüm hocam olan Görkem Serbest hocam�
 
 ## Data Set: 
 Bu veri seti, 23'ü Parkinson hastalığı (PH) olan 31 kişiden alınan çeşitli biyomedikal ses ölçümlerinden oluşmaktadır. Tablodaki her sütun belirli bir ses ölçüsüdür ve her satır bu kişilere ait 195 ses kaydından birine karşılık gelir ("isim" sütunu). Verilerin temel amacı, sağlıklı için 0 ve PH için 1 olarak ayarlanan "durum" sütununa göre sağlıklı insanları PH' liler den ayırmaktır. 
-Matris sütun girişleri (öznitelikleri):
-isim - ASCII konu adı ve kayıt numarası
-MDVP:Fo(Hz) - Ortalama vokal temel frekansı
-MDVP:Fhi(Hz) - Maksimum vokal temel frekansı
-MDVP:Flo(Hz) - Minimum vokal temel frekansı
-MDVP:Jitter(%), MDVP:Jitter(Abs), MDVP:RAP, MDVP:PPQ, Jitter:DDP - Temel frekansta çeşitli varyasyon ölçümleri
-MDVP:Shimmer,MDVP:Shimmer(dB),Shimmer:APQ3,Shimmer:APQ5,MDVP:APQ,Shimmer:DDA - Genlikte çeşitli varyasyon ölçüleri
-NHR, HNR - Gürültünün sesteki tonal bileşenlere oranının iki ölçüsü
-durum - Deneğin sağlık durumu (bir) - Parkinson, (sıfır) - sağlıklı
-RPDE, D2 - İki doğrusal olmayan dinamik karmaşıklık ölçüsü
-DFA - Sinyal fraktal ölçekleme üssü
-spread1,spread2,PPE - Temel frekans değişiminin doğrusal olmayan ölçüsü
+### Matris sütun girişleri (öznitelikleri):
+% isim - ASCII konu adı ve kayıt numarası
+% MDVP:Fo(Hz) - Ortalama vokal temel frekansı
+% MDVP:Fhi(Hz) - Maksimum vokal temel frekansı
+% MDVP:Flo(Hz) - Minimum vokal temel frekansı
+% MDVP:Jitter(%), MDVP:Jitter(Abs), MDVP:RAP, MDVP:PPQ, Jitter:DDP - Temel frekansta çeşitli varyasyon ölçümleri
+% MDVP:Shimmer,MDVP:Shimmer(dB),Shimmer:APQ3,Shimmer:APQ5,MDVP:APQ,Shimmer:DDA - Genlikte çeşitli varyasyon ölçüleri
+% NHR, HNR - Gürültünün sesteki tonal bileşenlere oranının iki ölçüsü
+% durum - Deneğin sağlık durumu (bir) - Parkinson, (sıfır) - sağlıklı
+% RPDE, D2 - İki doğrusal olmayan dinamik karmaşıklık ölçüsü
+% DFA - Sinyal fraktal ölçekleme üssü
+% spread1,spread2,PPE - Temel frekans değişiminin doğrusal olmayan ölçüsü
 
 Veriler ASCII CSV biçimindedir. CSV dosyasının satırları, bir ses kaydına karşılık gelen bir örnek içerir.  Ve bu dataset hakkında daha fazla bilgi için buradan yararlanılabilir. 
 (Max A. Little, Patrick E. McSharry, Eric J. Hunter, Lorraine O. Ramig (2008), 'Parkinson hastalığının telemonitoringi için disfoni ölçümlerinin uygunluğu', IEEE Transactions on Biomedical Engineering)
